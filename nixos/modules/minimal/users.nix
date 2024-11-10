@@ -3,6 +3,6 @@
     users.users.ficache = {
         isNormalUser = true;
         description = "ficache";
-        extraGroups = [ "networkmanager" "wheel" "docker" "vboxusers" ];
+        extraGroups = [ "networkmanager" "wheel" "tpws" ];
     };
 }
