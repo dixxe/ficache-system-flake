@@ -8,12 +8,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/minimal/bundle.nix # minimal bundle to run pc
+      
       ./user_modules.nix
-
-      ./modules/hardware/nvidia.nix
-      ./modules/hardware/battery-threshold.nix
       ./system-packages.nix
-      ./modules/desktop-enviroments/plasma6.nix
     ];
 
   disabledModules = [
