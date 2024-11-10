@@ -8,7 +8,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/minimal/bundle.nix # minimal bundle to run pc
-      ./modules/user_bundle.nix
+      ./user_modules.nix
 
       ./modules/hardware/nvidia.nix
       ./modules/hardware/battery-threshold.nix
