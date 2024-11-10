@@ -3,8 +3,7 @@
     ./modules/gaming-tweaks.nix
     ./modules/pipewire.nix
     ./modules/auto-cpufreq.nix
-    ./modules/privoxy.nix
-    ./modules/zapret_test.nix
+    ./modules/zapret.nix
 
     ./modules/hardware/nvidia.nix
     ./modules/hardware/battery-threshold.nix

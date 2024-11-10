@@ -11,9 +11,6 @@
         grimblast
         vlc
 
-        # Personal love
-        nautilus
-
         # Social stuff
         telegram-desktop
         
