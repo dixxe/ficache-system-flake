@@ -1,6 +1,4 @@
 {
-    plugins.web-devicons.enable
-    
     imports = [
         ./defaultGtk.nix
         ./git.nix
@@ -9,7 +7,6 @@
         ./nixvim/nixvim.nix
         ./stylix.nix
         # ./gammastep.nix
-        ./vscode.nix
         ./syncthing.nix
         ./helix.nix
     ];
