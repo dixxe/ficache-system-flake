@@ -1,15 +1,24 @@
 {
   programs.nixvim = {
     enable = true;
+    
     plugins = {
       web-devicons.enable = true;
       which-key.enable = true;
       gitsigns.enable = true;
       trouble.enable = true;
     };
+    
     defaultEditor = true;
     # Color schemes managed by stylix! :D
     
+    opts = {
+      relativenumber = true;
+      clipboard = "unnamedplus";
+      tabstop = 4;
+      softtabstop = 4;
+      showtabline = 4;
+    };
   };
   
   imports = [
