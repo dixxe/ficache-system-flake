@@ -53,6 +53,7 @@
                 "7tv.app"
                 "7tv.io"
                 "10tv.app"
+                "x.com"
             ];
         };
     };

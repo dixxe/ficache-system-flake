@@ -15,13 +15,14 @@
     opts = {
       relativenumber = true;
       clipboard = "unnamedplus";
-      tabstop = 4;
-      softtabstop = 4;
-      showtabline = 4;
+      tabstop = 2;
+      softtabstop = 2;
+      showtabline = 2;
     };
   };
   
   imports = [
+    ./keymaps.nix
     ./plugins-bundle.nix 
   ]; 
 }
