@@ -2,11 +2,7 @@
 
 {
     home.packages = with pkgs; [
-        # Hyprland stuff
-        lxqt.lxqt-policykit
-        wofi
-        
-        obsidian
+				obsidian
         alacritty
         grimblast
         vlc
