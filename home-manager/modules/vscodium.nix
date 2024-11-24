@@ -8,6 +8,7 @@
       ms-dotnettools.vscode-dotnet-runtime
       ms-dotnettools.csharp
       golang.go
+      waderyan.gitblame
     ];
   };
 }
