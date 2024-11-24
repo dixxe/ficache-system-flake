@@ -3,8 +3,8 @@
 {
     programs.git = {
         enable = true;
-        userEmail = "dixxe.mail@proton.me"; # Hello there :D.
-        userName = "ficache";
+        userName = "dixxe";
+        userEmail = "max.pan@tuta.io";
         extraConfig = {
             credential.helper = [
                 "cache --timeout 21600"
@@ -16,8 +16,5 @@
 
     home.packages = with pkgs; [ # Pretty wonky, but idk
         git-credential-oauth     # how to make it better
-        gnupg
-        pinentry-qt
-        meld
     ];
 }

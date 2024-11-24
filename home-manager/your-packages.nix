@@ -2,9 +2,8 @@
 
 {
     home.packages = with pkgs; [
-				obsidian
+		obsidian
         alacritty
-        grimblast
         vlc
 
         # Social stuff
@@ -17,11 +16,14 @@
         # Minecraft stuff
         prismlauncher
 
-        #Random stuff
+        #Development stuff
         krita
+        dotnetCorePackages.sdk_9_0
+        godot_4-mono
    ];
 
     nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
         "obsidian"
     ];
+
 }
