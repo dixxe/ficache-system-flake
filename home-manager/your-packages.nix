@@ -3,6 +3,7 @@
 {
     home.packages = with pkgs; [
 		obsidian
+        logseq
         alacritty
         vlc
 
@@ -18,12 +19,15 @@
 
         #Development stuff
         krita
-        dotnetCorePackages.sdk_9_0
         godot_4-mono
    ];
 
     nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
         "obsidian"
+    ];
+
+    nixpkgs.config.permittedInsecurePackages = [
+        "electron-27.3.11"
     ];
 
 }

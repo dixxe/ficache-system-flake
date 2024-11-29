@@ -10,5 +10,9 @@
       golang.go
       waderyan.gitblame
     ];
+    userSettings = {
+      "files.autoSave" = "on";
+      "editor.minimap.enabled" = false;
+    };
   };
 }
