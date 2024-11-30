@@ -1,5 +1,0 @@
-{
-  imports = [
-    ./video-processing.nix
-  ];
-}

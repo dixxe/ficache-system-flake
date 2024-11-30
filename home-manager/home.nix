@@ -1,7 +1,7 @@
 {
 
   imports = [
-    ./package-groups/bundle.nix
+    ./package-groups/video-processing.nix
     ./your-modules.nix
     ./your-packages.nix
   ];

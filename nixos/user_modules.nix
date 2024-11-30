@@ -3,7 +3,7 @@
     ./modules/gaming-tweaks.nix
     ./modules/pipewire.nix
     ./modules/auto-cpufreq.nix
-    ./modules/zapret.nix
+    #./modules/zapret.nix
     ./modules/zerotierone.nix
 
     ./modules/hardware/nvidia.nix
