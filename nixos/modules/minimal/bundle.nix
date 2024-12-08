@@ -7,5 +7,6 @@
         ./xkb-settings.nix
         ./users.nix
         ./garbage-collector.nix
+        ./kernel.nix
     ];
 }

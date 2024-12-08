@@ -2,7 +2,7 @@
 
 {
    fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "Ubuntu" ]; })
+    nerd-fonts.ubuntu
     noto-fonts
     hack-font
   ];
