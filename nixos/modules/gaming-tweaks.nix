@@ -19,10 +19,6 @@
     };
 
     environment.systemPackages = [
-        
-        pkgs.lutris
-        pkgs.wineWowPackages.waylandFull
-        pkgs.winetricks
 
         pkgs.dxvk
         pkgs.mesa

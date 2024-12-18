@@ -7,7 +7,7 @@
     enable = true;
     base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-frappe.yaml";
 
-    image = ../../wallhaven-winter.png;
+    image = ../../topography.png;
 
     cursor = {
       package = pkgs.oreo-cursors-plus;
