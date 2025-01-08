@@ -3,6 +3,7 @@
 {
     home.packages = with pkgs; [
         logseq
+        joplin-desktop
         alacritty
         vlc
 

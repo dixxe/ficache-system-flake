@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 
 {
     programs.obs-studio = {
@@ -10,10 +10,11 @@
         ];
     };
 
-    home.packages = [
+    home.packages = with pkgs; [
         
-        pkgs.jellyfin-ffmpeg
-        pkgs.libsForQt5.kdenlive
+        jellyfin-ffmpeg
+        libsForQt5.kdenlive
+        gpu-screen-recorder-gtk
         
-    ];
+    ];   
 }
