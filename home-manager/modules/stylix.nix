@@ -7,7 +7,7 @@
     enable = true;
     base16Scheme = "${pkgs.base16-schemes}/share/themes/eighties.yaml";
 
-    image = ../../car.png;
+    image = ../../topography.png;
 
     cursor = {
       package = pkgs.oreo-cursors-plus;

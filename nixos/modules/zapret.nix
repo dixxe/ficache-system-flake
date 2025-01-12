@@ -2,7 +2,9 @@
 {
     services = {
         zapret = {
-           enable = true;
+            enable = true;
+            udpPorts = [ "50000:65535" ];
+            udpSupport = true;
             params = [
                 "--dpi-desync-autottl=3"
                 "--wssize 1:6"
@@ -11,6 +13,10 @@
                 "--dpi-desync=syndata,fake,split2"
                 "--dpi-desync-repeats=6"
                 "--dpi-desync-fooling=md5sig"
+
+                "--dpi-desync=fake,split2"
+                "--dpi-desync-any-protocol"
+
                 "--new"
             ];
             whitelist = [
