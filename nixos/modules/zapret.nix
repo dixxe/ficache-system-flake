@@ -3,7 +3,7 @@
     services = {
         zapret = {
             enable = true;
-            udpPorts = [ "50000:65535" ];
+            udpPorts = [ "50000:65535" "27015:27050" ];
             udpSupport = true;
             params = [
                 "--dpi-desync-autottl=3"
@@ -59,7 +59,7 @@
                 "7tv.app"
                 "7tv.io"
                 "10tv.app"
-                "x.com"
+                "dixxe.top"
             ];
         };
     };

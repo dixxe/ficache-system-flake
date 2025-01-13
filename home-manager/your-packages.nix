@@ -9,6 +9,7 @@
 
         # Social stuff
         telegram-desktop
+        vesktop
         
         firefox
         qbittorrent
