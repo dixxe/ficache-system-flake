@@ -6,12 +6,13 @@
         joplin-desktop
         alacritty
         vlc
+        gnome-tweaks
 
         # Social stuff
         telegram-desktop
         vesktop
         
-        firefox
+        librewolf
         qbittorrent
         libreoffice
 

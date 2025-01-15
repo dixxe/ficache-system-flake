@@ -6,5 +6,6 @@
         ./modules/syncthing.nix
         ./modules/helix.nix
         ./modules/vscodium.nix
+        ./modules/desktop-managers/gnomeModule.nix
     ];
 }

@@ -1,9 +1,7 @@
 { pkgs, ... }:
 
 {
-    home.packages = [ pkgs.dconf ]; 
-
-    stylix = {
+  stylix = {
     enable = true;
     base16Scheme = "${pkgs.base16-schemes}/share/themes/eighties.yaml";
 
@@ -21,5 +19,5 @@
       terminal = 0.9;
     };
 
-    };
+  };
 }
